@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="US-ASCII"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -21,6 +21,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    sad
+  
+    <div>
+    	简单演示：<br/>
+		<a href="simple/addLog.do">立即增加一条日志到阿里云日志服务中</a> | <a href="simple/list.do">日志列表</a>
+    </div>
+      
+    <div>
+    	进阶演示：<br/>
+		<a href="extend/addLog.do">增加一条日志到缓存中(缓存达到指定条数后自动提交到阿里云日志服务)</a> | <a href="extend/list.do">日志列表</a>
+    </div>
+    
   </body>
 </html>
