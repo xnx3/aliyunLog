@@ -23,7 +23,7 @@ static{
 <br/>
 
 ## 3 加入Web项目使用
-##### 3.1 准备工作：将步骤2.1中所用的jar包加入到你的web项目中
+##### 3.1 准备工作：将步骤2.1中所用的jar包加入到你的web项目中; 查看示例：<a href="https://github.com/xnx3/aliyunLog/blob/master/j2ee">/j2ee</a>
 ##### 3.2 写入日志，可参考步骤2.2中， SimpleExample 类的 simpleAdd() 方法
 ##### 3.2 读取保存的日志列表并在页面上显示
 3.2.1 控制器Controller中，增加列表页入口
