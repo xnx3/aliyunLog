@@ -55,8 +55,7 @@ public String list(HttpServletRequest request, Model model) throws LogException{
 引入jar包 <a href="https://github.com/xnx3/xnx3_tld/raw/master/xnx3_tld.jar">xnx3_tld.jar(点击下载)</a> | <a href="https://github.com/xnx3/xnx3_tld">xnx3_tld使用说明</a>
 
 ## 5 预览效果
-![](http://cdn.weiunity.com/site/254/news/20170522/1495423464257032786.png)  
-
+![](http://cdn.weiunity.com/site/254/news/20170522/1495423464257032786.png)
 
 
 
