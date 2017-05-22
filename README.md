@@ -54,6 +54,8 @@ public String list(HttpServletRequest request, Model model) throws LogException{
 在 步骤3.2 中，列表页调出数据，显示的日志存储时间 ${log.logtime} 是10位时间戳，可将其转化为能阅读的时间显示。<br/>
 引入jar包 <a href="https://github.com/xnx3/xnx3_tld/raw/master/xnx3_tld.jar">xnx3_tld.jar(点击下载)</a> | <a href="https://github.com/xnx3/xnx3_tld">xnx3_tld使用说明</a>
 
+## 5 预览效果
+![](http://cdn.weiunity.com/site/254/news/20170522/1495423464257032786.png)  
 
 
 
