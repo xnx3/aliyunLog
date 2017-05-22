@@ -9,10 +9,10 @@
 <br/>
 ## 2 快速上手，2分钟内跑通项目
 ##### 2.1 创建项目(Java Project)
-可选 a. 将 <a href="https://github.com/xnx3/aliyunLog/tree/master/j2seSource">j2seSource文件夹内的项目</a> 直接导入到Eclipse中进行调试<br/>
-可选 b. 其他编辑器，或自己手动创建项目，需导入 <a href="https://github.com/xnx3/aliyunLog/tree/master/j2seSource/lib">/j2seSource/lib/</a> 文件夹中的jar包<br/>
+可选 a. 将 <a href="https://github.com/xnx3/aliyunLog/tree/master/j2se">j2seSource文件夹内的项目</a> 直接导入到Eclipse中进行调试<br/>
+可选 b. 其他编辑器，或自己手动创建项目，需导入 <a href="https://github.com/xnx3/aliyunLog/tree/master/j2se/lib">/j2se/lib/</a> 文件夹中的jar包<br/>
 ##### 2.2 修改调试类，调试运行
-<a href="https://github.com/xnx3/aliyunLog/blob/master/j2seSource/src/com/xnx3/aliyunLog/SimpleExample.java">/j2seSource/src/com/xnx3/aliyunLog/SimpleExample.java</a> 修改以下静态工厂中代码，填写你步骤1中阿里云的相关参数
+<a href="https://github.com/xnx3/aliyunLog/blob/master/j2se/src/com/xnx3/aliyunLog/SimpleExample.java">/j2se/src/com/xnx3/aliyunLog/SimpleExample.java</a> 修改以下静态工厂中代码，填写你步骤1中阿里云的相关参数
 ````Java
 static{
     //这里填上你的阿里云日志服务相关的参数信息
@@ -44,8 +44,8 @@ public String list(HttpServletRequest request, Model model) throws LogException{
 }
 ````
 3.2.2 视图view中，增加两个页面<br/>
->   1. <a href="https://github.com/xnx3/aliyunLog/blob/master/j2eeSource/WebRoot/WEB-INF/view/simple/list.jsp">list.jsp</a> (列表页，将数据列出展示)<br/>
->   2. <a href="https://github.com/xnx3/aliyunLog/blob/master/j2eeSource/WebRoot/WEB-INF/view/include/page.jsp">page.jsp</a> (底部的分页功能，显示上一页、下一页、首页、尾页等跳转)<br/>
+>   1. <a href="https://github.com/xnx3/aliyunLog/blob/master/j2ee/WebRoot/WEB-INF/view/simple/list.jsp">list.jsp</a> (列表页，将数据列出展示)<br/>
+>   2. <a href="https://github.com/xnx3/aliyunLog/blob/master/j2ee/WebRoot/WEB-INF/view/include/page.jsp">page.jsp</a> (底部的分页功能，显示上一页、下一页、首页、尾页等跳转)<br/>
 添加完毕后，重启项目，访问控制器中增加的list方法，看看效果(看一下list.jsp中include标签引用page.jsp的路径，别路径错了)<br/>
 至此，日志服务集成到项目中完毕！
 
