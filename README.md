@@ -43,8 +43,8 @@ public String list(HttpServletRequest request, Model model) throws LogException{
     return "simple/list";
 }
 ````
-3.2.2 视图view中，增加两个页面<br/>
->   1. <a href="https://github.com/xnx3/aliyunLog/blob/master/j2ee/WebRoot/WEB-INF/view/simple/list.jsp">list.jsp</a> (列表页，将数据列出展示)<br/>
+3.2.2 视图view中，增加两个页面(直接从 <a href="https://github.com/xnx3/aliyunLog/tree/master/j2ee/WebRoot/WEB-INF/view">/j2ee/WebRoot/WEB-INF/view/</a>复制、simple/list.jsp)<br/>
+>   1. <a href="https://github.com/xnx3/aliyunLog/blob/master/j2ee/WebRoot/WEB-INF/view/simple/list.jsp">list.jsp</a> (列表页，将数据列出展示)，来自 <a href="https://github.com/xnx3/aliyunLog/tree/master/j2ee/WebRoot/WEB-INF/view/include/page.jsp">/j2ee/WebRoot/WEB-INF/view/include/page.jsp</a><br/>
 >   2. <a href="https://github.com/xnx3/aliyunLog/blob/master/j2ee/WebRoot/WEB-INF/view/include/page.jsp">page.jsp</a> (底部的分页功能，显示上一页、下一页、首页、尾页等跳转)<br/>
 添加完毕后，重启项目，访问控制器中增加的list方法，看看效果(看一下list.jsp中include标签引用page.jsp的路径，别路径错了)<br/>
 至此，日志服务集成到项目中完毕！
