@@ -1,7 +1,7 @@
 # aliyunLog
 程序中需时刻记录日志，同时，又不能让其造成数据堆积，可采用阿里云日志服务。<br/>
 记录日志后可设置几天或几周有效期，超过有效期后自动转为文件存储起来并不会丢失。同时还可以将其导入MaxCompute进行大数据分析！<br/>
-整理所得，将日志服务快速接入项目中使用，全程5～20分钟内接入完成接入
+整理所得，将日志服务快速接入项目中使用，全程5～20分钟内接入完成接入，实现日志的添加跟获取。
 <br/>
 ## 1 准备工作
 阿里云日志服务控制台： <a href="https://sls.console.aliyun.com">https://sls.console.aliyun.com</a> 增加一个项目(Project)，然后再在其中增加一个日志库(logStore)<br/>
@@ -52,8 +52,7 @@ public String list(HttpServletRequest request, Model model) throws LogException{
 ## 4 扩展
 ##### 4.1 jsp页面中增加将时间戳转化为时间描述的tld标签
 在 步骤3.2 中，列表页调出数据，显示的日志存储时间 ${log.logtime} 是10位时间戳，可将其转化为能阅读的时间显示。<br/>
-引入jar包 <a href="https://github.com/xnx3/xnx3_tld/raw/master/xnx3_tld.jar">xnx3_tld.jar 点击下载</a><br/>
-<a href="https://github.com/xnx3/xnx3_tld">参考项目文档 xnx3_tld</a>
+引入jar包 <a href="https://github.com/xnx3/xnx3_tld/raw/master/xnx3_tld.jar">xnx3_tld.jar(点击下载)</a> | <a href="https://github.com/xnx3/xnx3_tld">xnx3_tld使用说明</a>
 
 
 
