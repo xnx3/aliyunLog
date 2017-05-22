@@ -3,7 +3,6 @@
 记录日志后可设置几天或几周有效期，超过有效期后自动转为文件存储起来并不会丢失。同时还可以将其导入MaxCompute进行大数据分析！<br/>
 整理所得，将日志服务快速接入项目中使用，全程5～20分钟内接入完成接入，实现日志的基本操作：添加跟获取。
 
-<br/>
 ## 1 准备工作
 阿里云日志服务控制台： <a href="https://sls.console.aliyun.com">https://sls.console.aliyun.com</a> 增加一个项目(Project)，然后再在其中增加一个日志库(logStore)<br/>
 具体步骤可参考：<a href="http://www.guanleiming.com/1726.html">http://www.guanleiming.com/1726.html</a><br/>
