@@ -28,7 +28,6 @@
 	    line-height: 30px;
 	    background-color: #fff;
 	    color: #333;
-	    margin: 0 -1px 5px 0;
 	 }
 </style>
 <div id="xnx3_page">
